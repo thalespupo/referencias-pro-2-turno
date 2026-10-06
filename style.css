@@ -8,7 +8,7 @@
   --destaque-fundo: #fbe9e3;
   --marca: #ffd23f;
   --marca-texto: #15130f;
-  --titulo: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --titulo: "Cormorant Garamond", "Georgia", "Times New Roman", serif;
   --corpo: "Source Serif 4", "Georgia", "Times New Roman", serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.12em;
 }
 h1 {
-  font: 900 2.4rem/1.02 var(--titulo);
+  font: 700 2.7rem/1.02 var(--titulo);
   margin: 0;
   padding-bottom: 12px;
   border-bottom: 4px double var(--borda);
@@ -91,7 +91,7 @@ main { padding-top: 18px; padding-bottom: 8px; display: grid; gap: 18px; }
 }
 .data { color: var(--suave); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .story h2 {
-  font: 900 1.45rem/1.18 var(--titulo);
+  font: 700 1.65rem/1.15 var(--titulo);
   margin: 0 0 10px;
 }
 .contexto { margin: 0 0 8px; color: var(--suave); }
@@ -104,7 +104,7 @@ main { padding-top: 18px; padding-bottom: 8px; display: grid; gap: 18px; }
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-.story h2 .marca { font-weight: 900; }
+.story h2 .marca { font-weight: 700; }
 
 .fontes { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
 .fontes a {
