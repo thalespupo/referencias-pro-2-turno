@@ -19,5 +19,5 @@ Regras:
 -->
 
 ## 05/10/2026 · Testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói
-Caso Ana Clara Gomes Machado, 5 anos, baleada no Monan Pequeno (Pendotiba, Niterói). A matéria é de 05/02/2021.
-- [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html) (05/02/2021)
+Caso Ana Clara Gomes Machado, 5 anos, baleada no Monan Pequeno (Pendotiba, Niterói).
+- [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html)
