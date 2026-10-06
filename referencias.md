@@ -18,8 +18,8 @@ Regras:
 - Tudo dentro desta caixa (entre os sinais de comentário) não aparece no site.
 -->
 
-## 05/10/2026 · Testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói
+## 05/10/2026 · Morte de menina de 5 anos em Niterói: testemunhas acusam PMs de recolher projéteis, e Flávio Bolsonaro atua na defesa do policial acusado
 Caso Ana Clara Gomes Machado, 5 anos, baleada no Monan Pequeno (Pendotiba, Niterói).
-O PM acusado ainda não foi julgado; Flávio Bolsonaro passou a integrar a defesa dele.
+Mais de cinco anos depois, o PM acusado pela morte ainda não foi julgado.
 - [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html)
 - [Mídia NINJA: novo vídeo mostra Flávio Bolsonaro na defesa de PM acusado pela morte de menina](https://midianinja.org/novo-video-mostra-flavio-bolsonaro-na-defesa-de-pm-acusado-pela-morte-de-menina/)
