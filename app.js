@@ -76,7 +76,7 @@ function el(tag, attrs = {}, ...filhos) {
 // "**palavra**" vira destaque (negrito com marca-texto); o resto é texto puro.
 function rico(tag, attrs, texto) {
   const e = el(tag, attrs);
-  texto.split(/\*\*(.+?)\*\*/g).forEach((parte, i) => {
+  texto.split(/\*\*\s*(.+?)\s*\*\*/g).forEach((parte, i) => {
     if (parte) e.append(i % 2 ? el("strong", { class: "marca" }, parte) : parte);
   });
   return e;
