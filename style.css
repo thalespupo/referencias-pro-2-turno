@@ -8,6 +8,10 @@
   --destaque-fundo: #fbe9e3;
   --marca: #ffd23f;
   --marca-texto: #15130f;
+  /* cores alternadas entre os stories: vermelho, azul, verde, roxo */
+  --c2: #1f4fd1; --c2-fundo: #e7edfc;
+  --c3: #0b7a43; --c3-fundo: #e2f3e9;
+  --c4: #7a2bb8; --c4-fundo: #f1e7fa;
   --titulo: "Cormorant Garamond", "Georgia", "Times New Roman", serif;
   --corpo: "Source Serif 4", "Georgia", "Times New Roman", serif;
 }
@@ -22,6 +26,9 @@
     --destaque-fundo: #2c1d18;
     --marca: #ffd23f;
     --marca-texto: #15130f;
+    --c2: #7fa4ff; --c2-fundo: #1b2338;
+    --c3: #4cc98a; --c3-fundo: #15291f;
+    --c4: #c18cff; --c4-fundo: #261c33;
   }
 }
 
@@ -87,8 +94,12 @@ main { padding-top: 18px; padding-bottom: 8px; display: grid; gap: 18px; }
   background: var(--cartao);
   border: 2px solid var(--borda);
   box-shadow: 5px 5px 0 var(--borda);
+  border-top: 8px solid var(--destaque);
   padding: 18px 16px 16px;
 }
+.story:nth-child(4n+2) { --destaque: var(--c2); --destaque-fundo: var(--c2-fundo); }
+.story:nth-child(4n+3) { --destaque: var(--c3); --destaque-fundo: var(--c3-fundo); }
+.story:nth-child(4n+4) { --destaque: var(--c4); --destaque-fundo: var(--c4-fundo); }
 .data { color: var(--suave); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .story h2 {
   font: 700 1.65rem/1.15 var(--titulo);
