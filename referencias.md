@@ -24,9 +24,14 @@ Mais de cinco anos depois, o PM acusado pela morte ainda não foi julgado.
 - [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html)
 - [Mídia NINJA: novo vídeo mostra Flávio Bolsonaro na defesa de PM acusado pela morte de menina](https://midianinja.org/novo-video-mostra-flavio-bolsonaro-na-defesa-de-pm-acusado-pela-morte-de-menina/)
 
-## Mansão de R$ 6 milhões: PF investiga financiamento do BRB a Flávio Bolsonaro
-O financiamento foi contratado em 2021; a apuração faz parte da Operação Compliance Zero.
+## Mansão de R$ 6 milhões: PF investiga financiamento do BRB a Flávio Bolsonaro; o banco está no centro do caso Master
+O financiamento foi contratado em 2021, quando o BRB era presidido por Paulo Henrique Costa, depois preso no caso Master. A apuração faz parte da Operação Compliance Zero, sobre negócios entre BRB e Banco Master.
 - [PF investiga o financiamento de R$ 3,1 milhões do BRB a Flávio para comprar uma mansão de R$ 6 milhões em Brasília](https://www.cartacapital.com.br/politica/pf-investiga-financiamento-do-brb-a-flavio-bolsonaro-para-compra-de-mansao-de-r-6-milhoes/)
+- [Em 2025, o Banco Central rejeitou a compra do Banco Master pelo BRB](https://www.em.com.br/economia/2025/09/7241215-banco-central-rejeita-compra-do-master-pelo-brb.html)
+- [Daniel Vorcaro, dono do Banco Master, foi preso pela PF na Operação Compliance Zero](https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-daniel-vorcaro-dono-do-banco-master-preso-em-operacao-da-pf/)
+- [Paulo Henrique Costa, ex-presidente do BRB, foi preso suspeito de receber R$ 146 milhões em propina; segundo o STF, agia dentro do banco para manter a liquidez do Master](https://www.gazetadopovo.com.br/republica/ex-presidente-do-brb-e-preso-em-nova-fase-da-compliance-zero/)
+- [Perícia da PF aponta fraude na compra de R$ 17,5 bilhões em carteiras do Master pelo BRB, com documentos falsificados e participação de seis diretores](https://www.terra.com.br/economia/pericia-da-pf-confirma-fraudes-entre-banco-master-e-brb-e-aponta-participacao-de-seis-diretores,5e2056b3070c930e96000897cfdd7d307hhjjsgs.html)
+- [Atenção: a Justiça mandou derrubar uma postagem que associava falsamente Flávio ao esquema do Master](https://www.metropoles.com/colunas/igor-gadelha/justica-manda-derrubar-postagem-que-liga-flavio-bolsonaro-ao-master)
 
 ## Rachadinha na Alerj: como o caso começou
 O esquema teria funcionado de 2007 a 2018 no gabinete de Flávio quando era deputado estadual.
