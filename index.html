@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Referências pro 2º turno</title>
+  <meta name="description" content="As fontes das notícias dos stories: confira você mesmo.">
+  <meta property="og:title" content="Referências pro 2º turno">
+  <meta property="og:description" content="As fontes das notícias dos stories: confira você mesmo.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16171a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Referências pro 2º turno</h1>
+    <p class="sub">As fontes das notícias dos stories. Abra, leia e tire suas próprias conclusões.</p>
+    <label class="busca">
+      <span class="sr">Buscar</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busca" type="search" placeholder="Buscar por assunto, veículo ou data" autocomplete="off" enterkeyhint="search">
+    </label>
+  </header>
+
+  <main id="lista" aria-live="polite">
+    <p class="aviso">Carregando…</p>
+  </main>
+
+  <footer class="rodape">
+    <p>Os links levam direto às publicações originais. Este site só reúne as fontes.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
