@@ -33,6 +33,14 @@ O financiamento foi contratado em 2021, quando o BRB era presidido por Paulo Hen
 - [Perícia da PF aponta fraude na compra de R$ 17,5 bilhões em carteiras do Master pelo BRB, com documentos falsificados e participação de seis diretores](https://www.terra.com.br/economia/pericia-da-pf-confirma-fraudes-entre-banco-master-e-brb-e-aponta-participacao-de-seis-diretores,5e2056b3070c930e96000897cfdd7d307hhjjsgs.html)
 - [Atenção: a Justiça mandou derrubar uma postagem que associava falsamente Flávio ao esquema do Master](https://www.metropoles.com/colunas/igor-gadelha/justica-manda-derrubar-postagem-que-liga-flavio-bolsonaro-ao-master)
 
+## Caso Marielle: major homenageado por Flávio foi condenado; o porteiro que citou Jair Bolsonaro mudou a versão
+Marielle Franco e o motorista Anderson Gomes foram mortos em março de 2018, no Rio. Em 2026 o STF condenou os mandantes e outros envolvidos.
+- [Em 2026, o STF condenou os irmãos Brazão como mandantes do crime e o major Ronald Paulo de Alves a 56 anos por duplo homicídio](https://www.conjur.com.br/2026-fev-25/stf-condena-irmaos-brazao-por-mandarem-matar-marielle-franco/)
+- [Em 2004, Flávio apresentou moção de louvor ao mesmo major Ronald, pelos "importantes serviços prestados ao Rio de Janeiro"](https://revistaforum.com.br/politica/flavio-bolsonaro-homenageou-ex-pm-condenado-por-assassinato-de-marielle-importantes-servicos-prestados-ao-rj/)
+- [A PF encontrou conversas entre uma assessora de Flávio e Robson Calixto, o Peixe, também condenado no caso, sobre emenda de quase R$ 200 mil; o TCU apontou indícios de desvio](https://www.em.com.br/politica/2026/09/7506425-flavio-bolsonaro-destinou-emenda-a-miliciano-condenado-no-caso-marielle.html)
+- [Em 2019, o porteiro do condomínio onde Jair Bolsonaro tem casa disse à Polícia Civil que "seu Jair" autorizou a entrada de Élcio de Queiroz, acusado de dirigir o carro do crime](https://conjur.com.br/2019-nov-20/porteiro-citou-bolsonaro-marielle-muda-versao-pf/)
+- [À PF, o porteiro voltou atrás: não confirmou a autorização e disse que errou o número da casa; registros da Câmara mostram Jair em Brasília no dia do crime](https://conjur.com.br/2019-nov-20/porteiro-citou-bolsonaro-marielle-muda-versao-pf/)
+
 ## Rachadinha na Alerj: como o caso começou
 O esquema teria funcionado de 2007 a 2018 no gabinete de Flávio quando era deputado estadual.
 - [Coaf apontou movimentação atípica de R$ 1,2 milhão na conta de Fabrício Queiroz, assessor do gabinete de Flávio na Alerj](https://www.cnnbrasil.com.br/politica/rachadinha-relacao-com-familia-bolsonaro-e-prisao-entenda-o-caso-queiroz/)

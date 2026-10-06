@@ -12,7 +12,7 @@ const VEICULOS = {
   "bbc.com": "BBC", "poder360.com.br": "Poder360", "metropoles.com": "Metrópoles",
   "valor.globo.com": "Valor Econômico", "agenciabrasil.ebc.com.br": "Agência Brasil",
   "tse.jus.br": "TSE", "camara.leg.br": "Câmara dos Deputados", "senado.leg.br": "Senado",
-  "gov.br": "gov.br", "ibge.gov.br": "IBGE", "aosfatos.org": "Aos Fatos", "lupa.uol.com.br": "Lupa", "midianinja.org": "Mídia NINJA", "terra.com.br": "Terra", "conjur.com.br": "Conjur", "gazetadopovo.com.br": "Gazeta do Povo", "congressoemfoco.com.br": "Congresso em Foco", "istoe.com.br": "IstoÉ", "cartacapital.com.br": "CartaCapital", "em.com.br": "Estado de Minas", "correiobraziliense.com.br": "Correio Braziliense",
+  "gov.br": "gov.br", "ibge.gov.br": "IBGE", "aosfatos.org": "Aos Fatos", "lupa.uol.com.br": "Lupa", "midianinja.org": "Mídia NINJA", "revistaforum.com.br": "Revista Fórum", "terra.com.br": "Terra", "conjur.com.br": "Conjur", "gazetadopovo.com.br": "Gazeta do Povo", "congressoemfoco.com.br": "Congresso em Foco", "istoe.com.br": "IstoÉ", "cartacapital.com.br": "CartaCapital", "em.com.br": "Estado de Minas", "correiobraziliense.com.br": "Correio Braziliense",
   "piaui.folha.uol.com.br": "piauí", "exame.com": "Exame", "infomoney.com.br": "InfoMoney",
   "youtube.com": "YouTube", "youtu.be": "YouTube", "x.com": "X", "twitter.com": "X", "instagram.com": "Instagram",
 };
