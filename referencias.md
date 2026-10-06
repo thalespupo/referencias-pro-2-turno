@@ -20,4 +20,6 @@ Regras:
 
 ## 05/10/2026 · Testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói
 Caso Ana Clara Gomes Machado, 5 anos, baleada no Monan Pequeno (Pendotiba, Niterói).
+O PM acusado ainda não foi julgado; Flávio Bolsonaro passou a integrar a defesa dele.
 - [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html)
+- [Mídia NINJA: novo vídeo mostra Flávio Bolsonaro na defesa de PM acusado pela morte de menina](https://midianinja.org/novo-video-mostra-flavio-bolsonaro-na-defesa-de-pm-acusado-pela-morte-de-menina/)
