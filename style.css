@@ -1,21 +1,27 @@
 :root {
-  --fundo: #f7f5f0;
-  --cartao: #ffffff;
-  --texto: #1c1d21;
-  --suave: #5f6168;
-  --borda: #e4e1d8;
-  --destaque: #1f4fd1;
-  --destaque-fundo: #eef2fd;
+  --fundo: #f4efe4;
+  --cartao: #fffdf8;
+  --texto: #15130f;
+  --suave: #5a5246;
+  --borda: #15130f;
+  --destaque: #d62718;
+  --destaque-fundo: #fbe9e3;
+  --marca: #ffd23f;
+  --marca-texto: #15130f;
+  --titulo: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --corpo: "Source Serif 4", "Georgia", "Times New Roman", serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --fundo: #16171a;
-    --cartao: #1f2024;
-    --texto: #ecebe7;
-    --suave: #a3a4ab;
-    --borda: #2e3036;
-    --destaque: #8fb0ff;
-    --destaque-fundo: #232a3d;
+    --fundo: #14120f;
+    --cartao: #1e1b17;
+    --texto: #f2ece0;
+    --suave: #b3aa9a;
+    --borda: #f2ece0;
+    --destaque: #ff5a43;
+    --destaque-fundo: #2c1d18;
+    --marca: #ffd23f;
+    --marca-texto: #15130f;
   }
 }
 
@@ -25,7 +31,7 @@ body {
   margin: 0;
   background: var(--fundo);
   color: var(--texto);
-  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font: 17px/1.55 var(--corpo);
 }
 
 .topo, main, .rodape {
@@ -33,20 +39,36 @@ body {
   margin: 0 auto;
   padding: 0 16px;
 }
-.topo { padding-top: 28px; padding-bottom: 8px; }
-h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
-.sub { color: var(--suave); margin: 0 0 16px; }
+.topo { padding-top: 26px; padding-bottom: 8px; }
+.selo {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 3px 10px;
+  background: var(--destaque);
+  color: #fff;
+  font: 700 0.75rem/1.4 var(--corpo);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+h1 {
+  font: 900 2.4rem/1.02 var(--titulo);
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 4px double var(--borda);
+  letter-spacing: -0.01em;
+}
+h1 em { font-style: italic; color: var(--destaque); }
+.sub { color: var(--suave); margin: 10px 0 16px; font-style: italic; }
 
 .busca {
   display: flex;
   align-items: center;
   gap: 8px;
   background: var(--cartao);
-  border: 1px solid var(--borda);
-  border-radius: 12px;
+  border: 2px solid var(--borda);
   padding: 0 12px;
 }
-.busca svg { width: 18px; height: 18px; flex: none; fill: none; stroke: var(--suave); stroke-width: 2; stroke-linecap: round; }
+.busca svg { width: 18px; height: 18px; flex: none; fill: none; stroke: var(--texto); stroke-width: 2.4; stroke-linecap: round; }
 .busca input {
   flex: 1;
   min-width: 0;
@@ -55,38 +77,57 @@ h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01
   background: transparent;
   color: var(--texto);
   font: inherit;
-  padding: 12px 0;
+  padding: 11px 0;
 }
 .busca:focus-within { border-color: var(--destaque); }
 
-main { padding-top: 16px; padding-bottom: 8px; display: grid; gap: 14px; }
+main { padding-top: 18px; padding-bottom: 8px; display: grid; gap: 18px; }
 
 .story {
   background: var(--cartao);
-  border: 1px solid var(--borda);
-  border-radius: 14px;
-  padding: 16px;
+  border: 2px solid var(--borda);
+  box-shadow: 5px 5px 0 var(--borda);
+  padding: 18px 16px 16px;
 }
 .data { color: var(--suave); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-.story h2 { font-size: 1.15rem; line-height: 1.3; margin: 2px 0 6px; }
+.story h2 {
+  font: 900 1.45rem/1.18 var(--titulo);
+  margin: 0 0 10px;
+}
 .contexto { margin: 0 0 8px; color: var(--suave); }
 
-.fontes { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.marca {
+  font-weight: 700;
+  background: linear-gradient(transparent 12%, var(--marca) 12%, var(--marca) 88%, transparent 88%);
+  color: var(--marca-texto);
+  padding: 0 0.12em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.story h2 .marca { font-weight: 900; }
+
+.fontes { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
 .fontes a {
   display: block;
   text-decoration: none;
   color: inherit;
   background: var(--destaque-fundo);
-  border-radius: 10px;
+  border-left: 4px solid var(--destaque);
   padding: 10px 12px;
   overflow-wrap: anywhere;
 }
 .fontes a:active { opacity: 0.75; }
-.veiculo { display: block; font-size: 0.78rem; font-weight: 600; color: var(--destaque); text-transform: uppercase; letter-spacing: 0.03em; }
+.veiculo {
+  display: block;
+  font: 700 0.74rem/1.5 var(--corpo);
+  color: var(--destaque);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
 .titulo-fonte { display: block; }
 .nota { display: block; color: var(--suave); font-size: 0.9rem; margin: 4px 2px 0; }
 
 .aviso { color: var(--suave); text-align: center; padding: 24px 0; margin: 0; }
-.rodape { color: var(--suave); font-size: 0.85rem; padding-top: 8px; padding-bottom: 32px; }
+.rodape { color: var(--suave); font-size: 0.9rem; font-style: italic; padding-top: 12px; padding-bottom: 32px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 .story .aviso { text-align: left; padding: 4px 0 0; font-size: 0.9rem; }

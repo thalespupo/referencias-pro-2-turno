@@ -73,6 +73,15 @@ function el(tag, attrs = {}, ...filhos) {
   return e;
 }
 
+// "**palavra**" vira destaque (negrito com marca-texto); o resto é texto puro.
+function rico(tag, attrs, texto) {
+  const e = el(tag, attrs);
+  texto.split(/\*\*(.+?)\*\*/g).forEach((parte, i) => {
+    if (parte) e.append(i % 2 ? el("strong", { class: "marca" }, parte) : parte);
+  });
+  return e;
+}
+
 function cartao(story) {
   const fontes = el("ul", { class: "fontes" });
   for (const f of story.fontes) {
@@ -81,7 +90,7 @@ function cartao(story) {
       el("li", {},
         el("a", { href: f.url, target: "_blank", rel: "noopener noreferrer" },
           el("span", { class: "veiculo" }, nome),
-          el("span", { class: "titulo-fonte" }, f.texto || f.url),
+          f.texto ? rico("span", { class: "titulo-fonte" }, f.texto) : el("span", { class: "titulo-fonte" }, f.url),
         ),
         f.nota ? el("span", { class: "nota" }, f.nota) : "",
       ),
@@ -89,8 +98,8 @@ function cartao(story) {
   }
   return el("article", { class: "story" },
     story.data ? el("time", { class: "data" }, story.data) : "",
-    el("h2", {}, story.titulo),
-    ...story.texto.map((t) => el("p", { class: "contexto" }, t)),
+    rico("h2", {}, story.titulo),
+    ...story.texto.map((t) => rico("p", { class: "contexto" }, t)),
     story.fontes.length ? fontes : el("p", { class: "aviso" }, "Fontes em breve."),
   );
 }
@@ -101,7 +110,7 @@ function render() {
   const termo = busca.value.trim().toLocaleLowerCase("pt-BR");
   const filtrados = !termo ? todos : todos.filter((s) =>
     [s.data, s.titulo, ...s.texto, ...s.fontes.flatMap((f) => [f.texto, f.url, f.nota, veiculo(f.url)])]
-      .join(" ").toLocaleLowerCase("pt-BR").includes(termo));
+      .join(" ").replace(/\*\*/g, "").toLocaleLowerCase("pt-BR").includes(termo));
   lista.replaceChildren(
     ...(filtrados.length
       ? filtrados.map(cartao)
