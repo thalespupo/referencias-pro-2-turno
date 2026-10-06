@@ -18,11 +18,6 @@ Regras:
 - Tudo dentro desta caixa (entre os sinais de comentário) não aparece no site.
 -->
 
-## 05/10/2026 · EXEMPLO de como fica um story (vai ser apagado)
-Este cartão é só uma demonstração do layout. Os links abaixo levam às páginas iniciais dos sites.
-- [Folha de S.Paulo: página inicial](https://www.folha.uol.com.br/)
-- https://g1.globo.com/ (link solto, com um comentário depois)
-- [TSE: resultados e estatísticas](https://www.tse.jus.br/)
-
-## 03/10 - EXEMPLO com data curta (vai ser apagado)
-- [Aos Fatos: checagens](https://www.aosfatos.org/)
+## 05/10/2026 · Testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói
+Caso Ana Clara Gomes Machado, 5 anos, baleada no Monan Pequeno (Pendotiba, Niterói). A matéria é de 05/02/2021.
+- [Extra: testemunhas acusam PMs de recolherem projéteis após morte de menina de 5 anos em Niterói](https://extra.globo.com/casos-de-policia/testemunhas-acusam-pms-de-recolherem-projeteis-apos-morte-de-menina-de-5-anos-em-niteroi-24870258.html) (05/02/2021)

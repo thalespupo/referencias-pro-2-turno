@@ -7,7 +7,7 @@ const busca = document.getElementById("busca");
 
 // Nome amigável dos veículos mais comuns; o resto mostra o domínio.
 const VEICULOS = {
-  "folha.uol.com.br": "Folha de S.Paulo", "g1.globo.com": "g1", "oglobo.globo.com": "O Globo",
+  "folha.uol.com.br": "Folha de S.Paulo", "g1.globo.com": "g1", "oglobo.globo.com": "O Globo", "extra.globo.com": "Extra",
   "estadao.com.br": "Estadão", "uol.com.br": "UOL", "cnnbrasil.com.br": "CNN Brasil",
   "bbc.com": "BBC", "poder360.com.br": "Poder360", "metropoles.com": "Metrópoles",
   "valor.globo.com": "Valor Econômico", "agenciabrasil.ebc.com.br": "Agência Brasil",
